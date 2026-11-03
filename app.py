@@ -61,6 +61,13 @@ DADOS_AVES = {
 PROTOCOLOS_BASE_ESPECIE = {ave: {"Dif": "Média", "Foto": "14h", "Dieta": "Mistura base + sementes germinadas.", "Época": "Mar-Jul", "Manejo": "Higiene regular e proteção."} for ave in DADOS_AVES}
 PROTOCOLOS_BASE_ESPECIE["Canário-doméstico"] = {"Dif": "Baixa", "Foto": "15h", "Dieta": "Mistura alpista/nabão + papa.", "Época": "Mar-Jun", "Manejo": "Banho diário essencial."}
 PROTOCOLOS_BASE_ESPECIE["Pintassilgo"] = {"Dif": "Alta", "Foto": "15h", "Dieta": "Mistura silvestres + cardo.", "Época": "Abr-Jul", "Manejo": "Ninho camuflado vital."}
+PROTOCOLOS_BASE_ESPECIE["Cardealito da Venezuela"] = {
+    "Dif": "Alta", 
+    "Foto": "14h-15h", 
+    "Dieta": "Mistura específica para Spinus, perilla, germinados e suplemento proteico.", 
+    "Época": "Mar-Jul", 
+    "Manejo": "Requer viveiros secos e boa ventilação; evitar humidade excessiva."
+}
 
 PROTOCOLOS_HIBRIDACAO = {
     ("Pintassilgo", "Canário-doméstico"): {"Prob": 85, "Fert": "F1 Machos: Férteis; F1 Fêmeas: Estéreis.", "Viab": "Elevada.", "Manejo": "Uso de amas canárias e grade separadora."},
