@@ -54,7 +54,8 @@ DADOS_AVES = {
     "Pintarroxo-de-asas-brancas": {"familia": "Fringillidae", "genero": "Loxia", "tamanho": 16},
     "Cruza-bico-de-himalaia": {"familia": "Fringillidae", "genero": "Loxia", "tamanho": 17},
     "Serinus-alario": {"familia": "Fringillidae", "genero": "Serinus", "tamanho": 12},
-    "Serinus-canicollis": {"familia": "Fringillidae", "genero": "Serinus", "tamanho": 12}
+    "Serinus-canicollis": {"familia": "Fringillidae", "genero": "Serinus", "tamanho": 12},
+    "Cardealito da Venezuela": {"familia": "Fringillidae", "genero": "Carduelis", "tamanho": 10},
 }
 
 PROTOCOLOS_BASE_ESPECIE = {ave: {"Dif": "Média", "Foto": "14h", "Dieta": "Mistura base + sementes germinadas.", "Época": "Mar-Jul", "Manejo": "Higiene regular e proteção."} for ave in DADOS_AVES}
